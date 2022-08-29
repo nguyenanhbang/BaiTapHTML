@@ -1,0 +1,28 @@
+li:nth-child(2n+1){
+    background-color: red;
+}
+li:nth-child(2n){
+    background-color: blue;
+}
+li{
+    width: 220px;
+    height: 200px;
+    float: left;
+    display: grid;
+}
+.loi {
+    color: red;
+    font-style: italic;
+    width: 220px;
+}
+span {
+    width: 220px;
+    height: 200px;
+    float: left;
+}
+span:nth-child(2n+1){
+    background-color: red;
+}
+span:nth-child(2n){
+    background-color: blue;
+}
